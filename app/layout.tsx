@@ -22,12 +22,20 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "BEYOND REACH Digital Marketing",
-  description: "We build digital experiences that scale.",
-  robots: {
-    index: false,
-    follow: false,
-  },
+  title: "BEYOND REACH | White Label Digital Marketing Agency",
+  description: "India-based white label digital marketing delivery partner for US agencies.",
+};
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.beyondreach.agency/#organization",
+  "name": "BEYOND REACH",
+  "url": "https://www.beyondreach.agency/",
+  "logo": "https://www.beyondreach.agency/images/logo.png",
+  "description": "India-based white label digital marketing delivery partner for US agencies.",
+  "email": "partners@beyondreach.agency",
+  "address": { "@type": "PostalAddress", "addressCountry": "IN" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -37,6 +45,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Header />
         {children}

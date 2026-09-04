@@ -20,38 +20,31 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const navLinks = [
   {
-    label: "App Development",
-    key: "apps",
+    label: "White-Label Services",
+    key: "services",
     items: [
-      { href: "/services/mobile-app-development", label: "Mobile App Development" },
-      { href: "/services/web-app-development", label: "Web Application Development" },
+      { href: "/white-label-seo-agency-india", label: "White-Label SEO" },
+      { href: "/white-label-ppc-agency-india", label: "White-Label PPC" },
+      { href: "/white-label-google-ads-management", label: "Google Ads Management" },
+      { href: "/white-label-meta-ads-agency", label: "Meta Ads Agency" },
+      { href: "/white-label-web-development", label: "Web Development" },
+      { href: "/white-label-landing-page-development", label: "Landing Pages" },
     ],
   },
   {
-    label: "Website Development",
-    key: "web",
+    label: "Partnership",
+    key: "partnership",
     items: [
-      { href: "/services/business-websites", label: "Business Websites" },
-      { href: "/services/ecommerce", label: "E-commerce Websites" },
+      { href: "/how-it-works", label: "How It Works" },
+      { href: "/case-studies", label: "Case Studies" },
     ],
   },
   {
-    label: "Digital Marketing",
-    key: "marketing",
+    label: "Company",
+    key: "company",
     items: [
-      { href: "/services/google-ads", label: "Google Ads" },
-      { href: "/services/meta-ads", label: "Meta Ads" },
-      { href: "/services/linkedin-ads", label: "LinkedIn Advertising" },
-      { href: "/services/seo", label: "Search Engine Optimization" },
-    ],
-  },
-  {
-    label: "Branding",
-    key: "branding",
-    items: [
-      { href: "/services/strategy-planning", label: "Branding & Strategy" },
-      { href: "/services/content-writing", label: "Content Creation" },
-      { href: "/services/logo-design", label: "Logo Design" },
+      { href: "/about", label: "About Us" },
+      { href: "/resources", label: "Resources" },
     ],
   },
 ];

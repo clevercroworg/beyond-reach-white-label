@@ -60,11 +60,11 @@ export default function HealthcareDigitalMarketingExpertise() {
                 </div>
 
                 <h1 className="text-[28px] min-[390px]:text-[32px] min-[420px]:text-[36px] sm:text-5xl lg:text-5xl font-black text-white leading-[1.08] tracking-tight relative z-10">
-                  <span className="sm:whitespace-nowrap">Expert US Healthcare</span> <span className="block mt-2 bg-gradient-to-r from-[#FFC72C] via-amber-300 to-[#F59E0B] bg-clip-text text-transparent">Digital Marketing Agency</span>
+                  <span className="sm:whitespace-nowrap">Beyond Reach Health Care</span> <span className="block mt-2 bg-gradient-to-r from-[#FFC72C] via-amber-300 to-[#F59E0B] bg-clip-text text-transparent">White-Label Digital Marketing</span>
                 </h1>
 
                 <p className="text-sm min-[420px]:text-base sm:text-lg text-slate-100 font-medium max-w-2xl mt-3 sm:mt-6 leading-relaxed relative z-10">
-                  Scale patient admissions with 15+ years of specialized expertise in US healthcare digital marketing, behavioral health PPC, and HIPAA-compliant tracking.
+                  Scale patient admissions with 15+ years of specialized expertise in US healthcare digital marketing, white-label behavioral health PPC, and HIPAA-compliant tracking.
                 </p>
 
                 <div className="grid grid-cols-2 gap-2 min-[420px]:gap-3 sm:gap-3 pt-4 sm:pt-6">
@@ -352,6 +352,16 @@ export default function HealthcareDigitalMarketingExpertise() {
             <h3 className="text-3xl md:text-4xl font-black text-white mb-10 text-center">Detailed Client Snapshots</h3>
             <div><ClientSnapshotsAccordion /></div>
           </div>
+        </div>
+      </section>
+
+      
+      <section className="py-24 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-black mb-6">The Beyond Reach Advantage</h2>
+          <p className="text-lg text-slate-700 leading-relaxed mb-10">
+            At Beyond Reach Health Care Digital Marketing, we bridge the gap between marketing, sales, and admissions. Driven by a dedicated leadership team that fosters a culture of continuous learning and operational excellence, we merge front-end media campaigns with back-end CRM systems to provide total transparency into your pipeline. Whether scaling a national healthcare brand, launching a new regional treatment facility, or securing B2B institutional partnerships, we deliver the strategy, the execution, and the measurable results your organization needs to scale.
+          </p>
         </div>
       </section>
 
